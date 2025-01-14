@@ -1,4 +1,3 @@
-window.addEventListener('load',()=>{
     let points,snake,running,apple,move,nextMove,play;
 const ctx = document.getElementById("snake-canvas").getContext('2d');
 const infoScreen = document.querySelector('.info-screen');
@@ -99,4 +98,3 @@ function addKeyDownEventListener(){
         }
     })
 }
-})
